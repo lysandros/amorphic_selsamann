@@ -1,7 +1,7 @@
 'use strict';
 
 const __controllerTemplate = 'Controller';
-const __appVersion = 0;
+const __appVersion = __ver || 0;
 
 var controller = typeof(controller) === 'undefined' ? null : controller;
 
